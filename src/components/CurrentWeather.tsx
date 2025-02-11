@@ -27,9 +27,9 @@ export const CurrentWeather = ({ name, state, weatherData }: Props) => {
       {conditions.length > 0 && (
         <div className="flex gap-2 justify-center items-center">
           <p>
-            {conditions
-              .map((cond) => firstLetterCaps(cond.description))
-              .join(", ")}
+            {firstLetterCaps(
+              conditions.map((cond) => cond.description).join(", ")
+            )}
           </p>
           {conditions.map((cond) => (
             <Image
