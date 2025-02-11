@@ -9,7 +9,7 @@ export const locationSchema = z.object({
 
 export type LocationData = z.infer<typeof locationSchema>;
 
-export const locationArraySchema = z.array(locationSchema).nonempty();
+export const locationArraySchema = z.array(locationSchema);
 
 const currentWeatherSchema = z.object({
   dt: z.number(),

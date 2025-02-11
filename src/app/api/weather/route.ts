@@ -40,6 +40,13 @@ const fetchLocationData = async (
       };
     }
 
+    if (!locationData.data.length) {
+      return {
+        success: false,
+        error: `Location not found for city: ${city}`,
+      };
+    }
+
     return { success: true, data: locationData.data[0] };
   } catch (error) {
     return {
