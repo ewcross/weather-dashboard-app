@@ -27,6 +27,11 @@ Or run in dev mode with:
 npm run dev
 ```
 
+You will need to add a local `.env` file containing your OpenWeatherMap API key. Add the following to this file:
+```
+OPENWEATHER_API_KEY=<your-api-key>
+```
+
 - I implemented a single Next.js api route for weather data fetching as this keeps things simple and allows sharing of utils and types throughout the project.
 - I made use of Zod for validation of api data, and inferred most of the types used throughout from Zod schemas, as it gives a single source of truth for types.
 - I treated errors as values wherever possible as I think this approach leads to code which is easier to reason about.
