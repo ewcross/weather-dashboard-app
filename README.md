@@ -31,3 +31,10 @@ npm run dev
 - I made use of Zod for validation of api data, and inferred most of the types used throughout from Zod schemas, as it gives a single source of truth for types.
 - I treated errors as values wherever possible as I think this approach leads to code which is easier to reason about.
 - The `WeatherContext` provider abstracts the data fetching logic on the front-end, and also enables weather data to be accessed easily by different components. 
+
+### Tests
+
+I added some simple unit tests for a couple of the critical components. These can be run using:
+```bash
+npm run test
+```
