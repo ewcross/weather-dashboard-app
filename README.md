@@ -27,7 +27,7 @@ Or run in dev mode with:
 npm run dev
 ```
 
-You will need to add a local `.env` file containing your OpenWeatherMap API key. Add the following to this file:
+You will need to add a local `.env` file to the project root containing your OpenWeatherMap API key. Add the following to this file:
 ```
 OPENWEATHER_API_KEY=<your-api-key>
 ```
