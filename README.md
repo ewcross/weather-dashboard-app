@@ -1,6 +1,6 @@
 # Weather Dashboard App
 
-This app can be used to find the weather for a given location, by searching for a city name. It displays the current weather and a 3 or 7 day forecast.
+This app can be used to find the weather for a given location by searching for the name of a city. It displays the current weather and a 3 or 7 day forecast.
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
